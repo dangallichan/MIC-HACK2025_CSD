@@ -8,6 +8,9 @@ Packages used:
 - PyVista
 - PyGeodesic (to calculate distances along mesh)
 
-
+This is `test_pyvista_directSim2.py` - and it just requires a Freesurfer output folder to work:
 https://github.com/user-attachments/assets/86439c8d-b87e-4938-bf0f-0b837278f16e
 
+***
+
+We also experimented with using 'raw' VTK (see `vis1_usingVTK.py`), but this can end up requiring a lot more code to create the desired features.
